@@ -1,0 +1,23 @@
+{
+  "name": "hackton-landing",
+  "version": "1.0.0",
+  "description": "this is the landing/business page for hackthon-portal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LABS-EU3/hackton-landing-page.git"
+  },
+  "keywords": [
+    "landing",
+    "page"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LABS-EU3/hackton-landing-page/issues"
+  },
+  "homepage": "https://github.com/LABS-EU3/hackton-landing-page#readme"
+}
