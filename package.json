@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/LABS-EU3/hackton-landing-page/issues"
   },
-  "homepage": "https://github.com/LABS-EU3/hackton-landing-page#readme"
+  "homepage": "https://github.com/LABS-EU3/hackton-landing-page#readme",
+  "dependencies": {
+    "less": "^3.10.3"
+  }
 }
