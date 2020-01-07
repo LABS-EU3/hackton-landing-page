@@ -345,14 +345,13 @@ img {
 .bottom-content {
   display: flex;
   background-color: #DFF6F0;
-
 }
 
 .option {
-  width: 30%;
+  width: 32%;
   display: flex;
   justify-content: space-around;
-  padding: 3rem 0rem 5rem 0 ;
+  padding: 3rem 0rem ;
 }
 
 .option .choose{
@@ -377,7 +376,19 @@ img {
 
 .festival {
   width: 32%;
-  padding: 3rem 0rem 5rem 0 ;
+  padding: 3rem 0rem ;
+  color: #151965;
+}
+
+.festival h2{
+  text-align: center;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.festival p{
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .footer {
