@@ -376,7 +376,6 @@ img {
 }
 
 .line {
-  /* width: 1%; */
   border-right: 1px solid #151965;
   margin-right: 1.3rem;
 }
@@ -416,7 +415,7 @@ img {
 }
 
 .footer-nav{
-  margin-top: 2rem;
+  margin-top: 2.5rem;
 }
 .footer-nav a{
   text-decoration: none;
