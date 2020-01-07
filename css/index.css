@@ -223,6 +223,8 @@ img {
     text-align: center;
     font-weight: bold;
     background: #FFFFFF;
+    border-radius: 8px;
+    padding: 12px 15px;
 }
 
 #btn-4 {
@@ -279,8 +281,7 @@ img {
 }
 
 .top-image {
-    width: 100%;
-    /* height: auto; */         
+    width: 100%;        
 }
 
 #topImg {
@@ -347,6 +348,7 @@ img {
   line-height: 30px;
 }
 
+/* Bottom styling*/
 .bottom-content {
   display: flex;
   background-color: #DFF6F0;
@@ -396,6 +398,8 @@ img {
   line-height: 30px;
 }
 
+/*Footer styling*/
+
 .footer {
   display: flex;
   justify-content: space-around;
@@ -415,7 +419,6 @@ img {
   margin-top: 2rem;
 }
 .footer-nav a{
-  /* margin-top: 3rem; */
   text-decoration: none;
   margin-left: 2rem;
   font-size: 15px;
