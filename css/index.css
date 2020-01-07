@@ -342,6 +342,11 @@ img {
   line-height: 30px;
 }
 
+.option-content {
+  display: flex;
+  justify-content: space-b;
+}
+
 .footer {
   display: flex;
 }
