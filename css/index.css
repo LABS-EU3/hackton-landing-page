@@ -272,7 +272,9 @@ img {
 .widget {
     align-items: center;
     padding-left: 8rem;
-    width: 50%
+    width: 40%;
+    margin-left: 4.5rem;
+    margin-bottom: 2rem;
 }
 
 .overall h2 {
