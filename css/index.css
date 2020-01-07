@@ -248,7 +248,6 @@ img {
     display: flex;
     flex-direction: column;
     padding-right: 20rem;
-    text-align: center;
     justify-content: center;
 }
 .top-content-1 h1 {
@@ -259,6 +258,7 @@ img {
     font-size: 48px;
     line-height: 71px;
     color: #151965;
+    text-align: center;
 }
 .top-content-1 p {
     width: 469px;
@@ -280,14 +280,9 @@ img {
     top: 72px;
 }
 
-.top-image {
+.top-image img{
     width: 100%;        
 }
-
-#topImg {
-  width: 100%;
-}
-
 
 /* middle content styling */
 .middle-content-1 {
@@ -426,4 +421,28 @@ img {
 
 .footer p {
   margin-top: 2rem;
+}
+
+@media (max-width: 800px) {
+  .top-content-1 {
+    padding-right: 0rem;
+  }
+
+  .top-content-1 h1 {
+    width: 300px;
+    font-size: 45px;
+    line-height: 71px;
+}
+.top-content-1 p {
+    width: 300px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.top-image img{
+  width: 100%; 
+  margin-left: 2rem;   
+  margin-top: 5rem;    
+}
+
 }
