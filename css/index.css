@@ -217,17 +217,23 @@ img {
 }
 #btn-3 {
     width: 21%;
-    background: #FFFFFF;
-    border-radius: 6px;
+    border-radius: 6px solid linear-gradient(270deg, #2C398D 0%, #1E77B4 100%); ;
     margin-right: 2rem;
     font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    background: #FFFFFF;
 }
+
 #btn-4 {
     width: 21%;
     padding: 12px 22px;
     background: linear-gradient(270deg, #2C398D 0%, #1E77B4 100%);
     border-radius: 6px;
     font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
 }
 .btn-cont {
     display: flex;
@@ -311,6 +317,7 @@ img {
 
 .middle-content-2 {
     display: flex;
+    padding-bottom: 2rem;
 }
 
 .middle-widget {
