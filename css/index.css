@@ -395,4 +395,27 @@ img {
   display: flex;
   justify-content: space-around;
   border: 2px solid #8A888A;
+  padding: 1.5rem;
+}
+
+.footer-logo{
+  margin-top: 2rem;
+}
+
+.footer-logo img {
+  margin-left: 2rem;
+}
+
+.footer-nav{
+  margin-top: 2rem;
+}
+.footer-nav a{
+  /* margin-top: 3rem; */
+  text-decoration: none;
+  margin-left: 2rem;
+  font-size: 15px;
+}
+
+.footer p {
+  margin-top: 2rem;
 }
