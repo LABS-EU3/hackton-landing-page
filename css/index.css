@@ -393,4 +393,6 @@ img {
 
 .footer {
   display: flex;
+  justify-content: space-around;
+  border: 2px solid #8A888A;
 }
