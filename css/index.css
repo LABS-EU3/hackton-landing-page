@@ -598,4 +598,24 @@ img {
     line-height: 30px;
     font-family: Roboto Mono;
   }
+  
+  .about-content .all-member .member {
+    width: 30%;
+    margin: 4rem 1rem;
+  }
+  
+  .all-member .member .team-member {
+    width: 80%;
+    border-radius: 20rem;
+    box-shadow: 10px 10px 0px 0px #dff6f0;
+  }
+  
+  .member p {
+    font-size: 25px;
+  }
+
+  .underline {
+    margin-bottom: 1rem;
+  }
+  
 }
