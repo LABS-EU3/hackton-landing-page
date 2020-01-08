@@ -245,20 +245,21 @@ img {
 }
 
 #btn-4 {
-  width: 50%;
-  padding: 12px 22px;
-  background: linear-gradient(270deg, #2c398d 0%, #1e77b4 100%);
-  font-size: 1.2rem;
-  text-align: center;
-  font-weight: bold;
-  color: white;
-  border-style: solid;
+    width: 50%;
+    padding: 12px 22px;
+    background: linear-gradient(270deg, #2C398D 0%, #1E77B4 100%);
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border-style: solid;
+    border-radius: 8px;
 }
 
 .btn-cont {
-  width: 70%;
-  display: flex;
-  justify-content: center;
+  width: 60%;
+    display: flex;
+    justify-content: center;
 }
 
 /* Home page styles */
@@ -319,10 +320,10 @@ img {
 /* middle content styling */
 
 .middle-content-1 {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 7rem;
 }
 
 .middle-content-1 h1 {
@@ -352,9 +353,11 @@ img {
 }
 
 .middle-widget {
-  display: flex;
-  justify-content: space-around;
-  justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    padding-bottom: 5rem; 
+    padding-top: 3rem;
 }
 
 .middle-widget .overall {
@@ -365,10 +368,10 @@ img {
 }
 
 .widget {
-  align-items: center;
-  /* padding-left: 8rem; */
-  width: 30%;
-  margin-bottom: 2rem;
+    align-items: center;
+    /* padding-left: 8rem; */
+    width: 25%;
+    margin-bottom: 2rem;
 }
 
 .overall h2 {
