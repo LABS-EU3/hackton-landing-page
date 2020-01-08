@@ -400,4 +400,38 @@ img {
     /* margin-right: 10rem; */
 }
 
+.middle-content-1 p {
+  padding: 0rem 20rem;
+  padding-bottom: 5rem;
+}
+
+.overall p {
+  padding: 0 2rem;
+}
+
+/* Bottom styling*/
+.bottom-content {
+  display: flex;
+  background-color: #DFF6F0;
+}
+
+.festival {
+  width: 32%;
+  padding: 3rem 1rem;
+  color: #151965;
+}
+
+.festival h2 {
+  text-align: center;
+  font-size: 25px;
+  line-height: 30px;
+  font-family: Space Mono;
+}
+
+.festival p {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: Roboto Mono;
+}
+
 }
