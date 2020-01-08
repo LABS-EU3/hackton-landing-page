@@ -199,9 +199,10 @@ img {
 
 .logo {
   width: 20rem;
-  padding-top: 24px;
+  /* padding-top: 24px;
   padding-bottom: 23px;
-  padding-left: 46px;
+  padding-left: 46px; */
+  padding: 2rem;
 }
 
 .header-nav {
