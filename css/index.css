@@ -2,174 +2,93 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
 }
+
 body {
-  line-height: 1;
+    line-height: 1;
 }
-ol,
-ul {
-  list-style: none;
+
+ol, ul {
+    list-style: none;
 }
-blockquote,
-q {
-  quotes: none;
+
+blockquote, q {
+    quotes: none;
 }
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: '';
-  content: none;
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
 }
+
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
+
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
-html,
-body {
-  font-family: 'Roboto', sans-serif;
+
+html, body {
+    font-family: 'Roboto', sans-serif;
 }
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: 'Roboto', sans-serif;
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Roboto', sans-serif;
 }
+
 h1 {
-  font-size: 4rem;
+    font-size: 4rem;
 }
+
 h2 {
-  font-size: 3.2rem;
-  padding-bottom: 10px;
+    font-size: 3.2rem;
+    padding-bottom: 10px;
 }
+
 h4 {
-  font-size: 2.5rem;
-  padding-bottom: 10px;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
 }
+
 p {
-  line-height: 1.5;
-  font-size: 1.6rem;
-  padding-bottom: 10px;
+    line-height: 1.5;
+    font-size: 1.6rem;
+    padding-bottom: 10px;
 }
+
 img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
+
 .container {
-  max-width: 1000px;
+  max-width: 90%;
   width: 100%;
   margin: 0 auto;
 }
 
 /* Navigation styles */
+
 .header-content {
     display: flex;
     justify-content: space-between;
@@ -177,30 +96,37 @@ img {
     /* Shadow */
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
 }
+
 .logo {
     width: 20rem;
     padding-top: 24px;
     padding-bottom: 23px;
     padding-left: 46px;
 }
+
 .header-nav {
     display: flex;
     padding: 2rem;
-    align-items:center;
+    align-items: center;
 }
+
 .header-nav a {
     text-decoration: none;
     color: black;
     padding-left: 2rem;
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
 }
+
 .header-nav a:hover {
-        color: #151965;
+    color: #151965;
 }
+
 /* buttons */
+
 .btn {
     padding-left: 2rem;
 }
+
 #btn-1 {
     background: none;
     border: 2px solid #4D80E4;
@@ -208,23 +134,25 @@ img {
     padding: 1rem 2rem;
     border-radius: 8px;
 }
+
 #btn-2 {
-    border: 2px solid #32407B;
+    border: 1px solid #32407B;
     margin-right: 1rem;
     padding: 1rem 2rem;
     border-radius: 8px;
+    border-style: solid;
     background: linear-gradient(270deg, #2C398D 0%, #1E77B4 100%);
 }
+
 #btn-3 {
     width: 21%;
-    border-radius: 6px solid linear-gradient(270deg, #2C398D 0%, #1E77B4 100%); ;
+    border-radius: 8px solid linear-gradient(270deg, #2C398D 0%, #1E77B4 100%);
     margin-right: 2rem;
     font-size: 1.2rem;
     text-align: center;
     font-weight: bold;
     background: #FFFFFF;
-    border-radius: 8px;
-    padding: 12px 15px;
+    border-style: solid;
 }
 
 #btn-4 {
@@ -236,7 +164,9 @@ img {
     text-align: center;
     font-weight: bold;
     color: white;
+    border-style: solid;
 }
+
 .btn-cont {
     display: flex;
     justify-content: center;
@@ -248,9 +178,9 @@ img {
     display: flex;
     flex-direction: column;
     padding-right: 20rem;
-    text-align: center;
     justify-content: center;
 }
+
 .top-content-1 h1 {
     width: 468px;
     font-family: Space Mono;
@@ -259,7 +189,9 @@ img {
     font-size: 48px;
     line-height: 71px;
     color: #151965;
+    text-align: center;
 }
+
 .top-content-1 p {
     width: 469px;
     font-family: Roboto Mono;
@@ -269,6 +201,7 @@ img {
     line-height: 30px;
     color: #4D80E4;
 }
+
 .top-content {
     display: flex;
     justify-content: space-evenly;
@@ -281,21 +214,24 @@ img {
 }
 
 .top-image {
-    width: 100%;        
+    width: 100%;
+    padding-top: 7rem;
+    /* height: auto; */
 }
 
 #topImg {
-  width: 100%;
+    width: 100%;
 }
 
-
 /* middle content styling */
+
 .middle-content-1 {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding-top: 5rem;
 }
+
 .middle-content-1 h1 {
     font-family: Space Mono;
     font-style: normal;
@@ -305,6 +241,7 @@ img {
     color: #151965;
     padding-bottom: 2rem;
 }
+
 .middle-content-1 p {
     font-family: Roboto Mono;
     font-style: normal;
@@ -322,107 +259,119 @@ img {
 }
 
 .middle-widget {
-  display: flex;
-  justify-content: space-around;
-  justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
 }
 
 .middle-widget .overall {
-  width: 33%;
-  padding: 0rem 2rem
+    width: 33%;
+    padding: 0rem 2rem
 }
 
-.overall img{
-  align-items: center;
-  padding-left: 8rem;
+.widget {
+    align-items: center;
+    padding-left: 8rem;
+    width: 40%;
+    margin-left: 4.5rem;
+    margin-bottom: 2rem;
 }
 
 .overall h2 {
-  text-align: center;
-  font-size: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Space Mono;
 }
 
 .overall p {
-  color: #4D80E4;
-  font-size: 20px;
-  line-height: 30px;
+    color: #4D80E4;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Roboto Mono;
 }
 
 /* Bottom styling*/
 .bottom-content {
-  display: flex;
-  background-color: #DFF6F0;
+    display: flex;
+    background-color: #DFF6F0;
 }
 
 .option {
-  width: 32%;
-  display: flex;
-  justify-content: space-around;
-  padding: 3rem 0rem ;
+    width: 32%;
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 0rem;
 }
 
-.option .choose{
-  width: 9rem;
-  height: 4rem;
-  padding: .7rem;
-  background-color: #151965;
-  text-align: center;
-  color: #FFFFFF;
+.option .choose {
+    width: 9rem;
+    height: 4rem;
+    padding: .7rem;
+    background: linear-gradient(270deg, #2C398D 0%, #1E77B4 100%);
+    text-align: center;
+    color: #FFFFFF;
 }
 
-.values select{
-  width: 11rem;
-  height: 4rem;
+.values select {
+    width: 10rem;
+    height: 4rem;
+    padding-left: 1rem;
 }
 
 .line {
-  border-right: 1px solid #151965;
-  margin-right: 1.3rem;
+    /* width: 1%; */
+    border-right: 1px solid #8c8da5;
+    margin-right: 1.3rem;
 }
 
 .festival {
-  width: 32%;
-  padding: 3rem 0rem ;
-  color: #151965;
+    width: 32%;
+    padding: 3rem 0rem;
+    color: #151965;
 }
 
-.festival h2{
-  text-align: center;
-  font-size: 25px;
-  line-height: 30px;
+.festival h2 {
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: Space Mono;
 }
 
-.festival p{
-  font-size: 20px;
-  line-height: 30px;
+.festival p {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Roboto Mono;
 }
 
 /*Footer styling*/
 
 .footer {
-  display: flex;
-  justify-content: space-around;
-  border: 2px solid #8A888A;
-  padding: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid#C4C4C4;
+    ;
+    padding: 1rem;
 }
 
-.footer-logo{
-  margin-top: 2rem;
+.footer-logo {
+    margin-top: 2rem;
 }
 
 .footer-logo img {
-  margin-left: 2rem;
+    margin-left: 2rem;
 }
 
 .footer-nav{
   margin-top: 2.5rem;
 }
-.footer-nav a{
-  text-decoration: none;
-  margin-left: 2rem;
-  font-size: 15px;
+
+.footer-nav a {
+    /* margin-top: 3rem; */
+    text-decoration: none;
+    margin-left: 2rem;
+    font-size: 15px;
 }
 
 .footer p {
-  margin-top: 2rem;
+    margin-top: 2rem;
 }
