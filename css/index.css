@@ -377,33 +377,27 @@ img {
     }
 
     .top-content-1 {
-      display: flex;
-      flex-direction: column;
-      /* padding-right: 20rem; */
-      justify-content: center;
       width: 50%;
   }
   
   .top-content-1 h1 {
       width: 95%;
-      font-family: Space Mono;
-      font-style: normal;
-      font-weight: normal;
       font-size: 5rem;
-      /* padding-right: 5rem; */
-      line-height: 71px;
-      color: #151965;
-      /* text-align: center; */
   }
   
   .top-content-1 p {
-      /* width: 469px; */
       width: 95%;
-      font-family: Roboto Mono;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 2rem;
-      line-height: 30px;
-      color: #4D80E4;
   }
+
+  .top-image {
+    width: 45%;
+    padding-top: 9rem;
+    /* height: auto; */
+}
+
+#topImg {
+    width: 100%;
+    /* margin-right: 10rem; */
+}
+
 }
