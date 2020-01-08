@@ -240,7 +240,7 @@ img {
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
-    padding: 0rem 32rem;
+    padding: 0rem 40rem;
     line-height: 34px;
     color: #151965;
     padding-bottom: 5rem;
@@ -259,14 +259,15 @@ img {
 
 .middle-widget .overall {
     width: 33%;
-    padding: 0rem 2rem
+    /* padding: 0rem 3rem */
+    align-items: center;
+    text-align: center;
 }
 
 .widget {
     align-items: center;
-    padding-left: 8rem;
-    width: 40%;
-    margin-left: 4.5rem;
+    /* padding-left: 8rem; */
+    width: 30%;
     margin-bottom: 2rem;
 }
 
@@ -281,6 +282,7 @@ img {
     font-size: 20px;
     line-height: 30px;
     font-family: Roboto Mono;
+    padding: 0 3rem;
 }
 
 /* Bottom styling*/
