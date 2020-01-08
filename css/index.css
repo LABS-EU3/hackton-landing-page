@@ -478,6 +478,10 @@ img {
     max-width: 100%;
   }
 
+  #btn-4 {
+    width: 60%;
+}
+
   .top-content-1 {
     width: 50%;
   }
