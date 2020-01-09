@@ -190,20 +190,11 @@ img {
 /* Navigation styles */
 
 .header-content {
-<<<<<<< HEAD
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid #C3CFD9;
-    height: 86px;
-    /* Shadow */
-    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
-=======
   display: flex;
   justify-content: space-between;
   border: 1px solid #c3cfd9;
   /* Shadow */
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
->>>>>>> 23b0bfb92dee641fc8bea42909bb3b8af939527f
 }
 
 .logo {
@@ -227,13 +218,10 @@ img {
   font-size: 1.2rem;
 }
 
-<<<<<<< HEAD
-=======
 .header-nav a:hover {
   color: #151965;
 }
 
->>>>>>> 23b0bfb92dee641fc8bea42909bb3b8af939527f
 /* buttons */
 
 .btn {
@@ -241,21 +229,11 @@ img {
 }
 
 #btn-1 {
-<<<<<<< HEAD
-    background: none;
-    border: 2px solid #4D80E4;
-    margin-right: 1rem;
-    padding: 1rem 2rem;
-    border-radius: 8px;
-    text-decoration: none;
-    white-space: nowrap;
-=======
   background: none;
   border: 2px solid #4d80e4;
   margin-right: 1rem;
   padding: 1rem 2rem;
   border-radius: 8px;
->>>>>>> 23b0bfb92dee641fc8bea42909bb3b8af939527f
 }
 
 #btn-2 {
@@ -280,15 +258,9 @@ img {
 }
 
 .btn-cont {
-<<<<<<< HEAD
-    width: 60%;
-    display: flex;
-    justify-content: center;
-=======
   width: 60%;
   display: flex;
   justify-content: center;
->>>>>>> 23b0bfb92dee641fc8bea42909bb3b8af939527f
 }
 
 /* Home page styles */
@@ -343,7 +315,6 @@ img {
 
 #topImg {
   width: 100%;
-  /* margin-right: 10rem; */
 }
 
 /* middle content styling */
@@ -383,19 +354,11 @@ img {
 }
 
 .middle-widget {
-<<<<<<< HEAD
-    display: flex;
-    justify-content: space-around;
-    justify-content: center;
-    padding-bottom: 5rem;
-    padding-top: 3rem;
-=======
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   justify-content: center;
   padding-bottom: 5rem;
   padding-top: 3rem;
->>>>>>> 23b0bfb92dee641fc8bea42909bb3b8af939527f
 }
 
 .middle-widget .overall {
@@ -413,9 +376,9 @@ img {
 }
 
 .overall h2 {
+  font-family: Space Mono;
   text-align: center;
   font-size: 30px;
-  font-family: Space Mono;
 }
 
 .overall p {
@@ -571,6 +534,7 @@ img {
   margin-top: 2rem;
 }
 
+/* tab responsiveness */
 @media (max-width: 800px) {
   .container {
     max-width: 100%;
@@ -657,4 +621,112 @@ img {
     margin-bottom: 1rem;
   }
   
+}
+
+/* mobile responsiveness */
+@media (max-width: 500px) {
+  .top-image {
+    display: none;
+  }
+  .header-nav a {
+    display: none;
+  }
+
+  #btn-4 {
+    width: 40%;
+  }
+  .btn-cont {
+    width: 100%;
+    padding-left: 4rem;
+    padding-top: 3rem;
+    
+  }
+
+  .top-content {
+    height: 40rem;
+  }
+  .top-content-1 {
+    width: 100%;
+  }
+
+  .top-content-1 h1 {
+    width: 100%;
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .top-content-1 p {
+    display: none;
+  }
+
+  .middle-content-1 {
+    padding-top: 4rem;
+  }
+  
+  .middle-content-1 h1 {
+    font-size: 32px;
+    padding-bottom: .5rem;
+  }
+  
+  .middle-content-1 p {
+    width: 100%;
+    font-size: 22px;
+    padding: 0rem 10rem;
+    padding-bottom: 5rem;
+    text-align: center;
+  }
+  .middle-widget {
+    flex-direction: column;
+    padding-top: 0rem;
+  }
+  .middle-widget .overall {
+    width: 100%;
+  }
+  .widget {
+    margin-top: 6px;
+  }
+  .overall h2 {
+    font-size:32px;
+  }
+  .overall p {
+    padding: 1rem 10rem;
+    text-align: center;
+  }
+
+  /* Bottom styling*/
+  .bottom-content {
+    display: none;
+  }
+  .about-content .all-member .member {
+    width: 40%;
+    margin: 2rem;
+  }
+  
+  .all-member .member .team-member {
+    width: 100%;
+  }
+  
+  .member p {
+    font-size: 25px;
+  }
+  .member h3 {
+    font-size: 20px;
+  }
+
+  .underline {
+    margin-bottom: 1rem;
+  }
+  .footer-nav {
+    display:none;
+  }
+  .footer-logo {
+    width: 60%;
+    justify-content: space-between;
+  }
+  .footer-logo img {
+    width: 5%;
+  }
+  .footer p {
+    font-size: 10px; 
+  }
 }
