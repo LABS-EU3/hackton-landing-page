@@ -341,7 +341,7 @@ img {
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
-  padding: 0rem 40rem;
+  padding: 0rem 30rem;
   line-height: 34px;
   color: #151965;
   padding-bottom: 5rem;
@@ -469,7 +469,7 @@ img {
   flex-wrap: wrap;
 }
 .about-content .all-member .member {
-  width: 30%;
+  width: 28%;
   margin: 4rem 1.5rem;
 }
 
@@ -632,19 +632,38 @@ img {
     display: none;
   }
 
-  #btn-4 {
-    width: 40%;
+  .btn {
+    /* padding-left: 2rem; */
+    display: flex;
+    justify-content: space-between;
   }
+  
+  #btn-4 {
+    width: 50%;
+  }
+
   .btn-cont {
     width: 100%;
-    padding-left: 4rem;
+    padding-left: 2rem;
     padding-top: 3rem;
     
+  }
+
+  #btn-1 {
+    margin-right: 0rem;
+    padding: 1.2rem 1rem;
+  }
+  
+  #btn-2 {
+    margin-right: 0rem;
+    padding: 1.2rem 1rem;
+    margin-left: .5rem;
   }
 
   .top-content {
     height: 40rem;
   }
+
   .top-content-1 {
     width: 100%;
   }
@@ -692,13 +711,24 @@ img {
     padding: 1rem 10rem;
     text-align: center;
   }
+  
+  .underline {
+    width: 20%;
+    margin-bottom: 1rem;
+  }
 
   /* Bottom styling*/
   .bottom-content {
     display: none;
   }
+
+  .about-content {
+    padding: 0rem 5rem;
+    padding-bottom: 2rem;
+  }
+
   .about-content .all-member .member {
-    width: 40%;
+    width: 80%;
     margin: 2rem;
   }
   
@@ -713,20 +743,17 @@ img {
     font-size: 20px;
   }
 
-  .underline {
-    margin-bottom: 1rem;
-  }
   .footer-nav {
     display:none;
   }
   .footer-logo {
-    width: 60%;
+    width: 50%;
     justify-content: space-between;
   }
   .footer-logo img {
-    width: 5%;
+    width: 10%;
   }
   .footer p {
-    font-size: 10px; 
+    font-size: 13px; 
   }
 }
