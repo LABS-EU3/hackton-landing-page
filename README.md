@@ -1,3 +1,6 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ff353520-6887-4417-8f91-d92649103f59/deploy-status)](https://app.netlify.com/sites/hackton/deploys)
+
+
 # hackton-landing-page
 A comprehensive portal for hackathons where students can submit their work and judges can evaluate in one place
 
