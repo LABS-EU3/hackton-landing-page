@@ -176,14 +176,14 @@ p {
   padding-bottom: 10px;
 }
 
-img {
+.header-content .logo {
   max-width: 100%;
   height: auto;
 }
 
 .container {
     max-width: 90%;
-    width: 100%;
+    /* width: 100%; */
     margin: 0 auto;
 }
 
@@ -631,6 +631,9 @@ img {
   .header-nav a {
     display: none;
   }
+  .header-content .logo {
+    width: 48%;
+   }
 
   .btn {
     /* padding-left: 2rem; */
@@ -756,4 +759,14 @@ img {
   .footer p {
     font-size: 13px; 
   }
+}
+
+
+/*  */
+@media (max-width: 375px) {
+  
+  .header-content .logo {
+   width: 48%;
+  }
+  
 }
